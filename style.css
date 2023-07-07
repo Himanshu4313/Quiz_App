@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f7efef;
+    color: #2e2626;
+}
+h1{
+   
+    letter-spacing: 3px;
+    margin: 2px;
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 5px;
+}
+
+#quiz{
+   border: 2px solid red;
+   width: 40vw;
+   margin: auto;
+   padding: 20px;
+}
+
+.question{
+    padding: 8px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.answer label{
+    padding: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.answer label input{
+    width: 35px;
+    height: 18px;
+}
+
+#Submit{
+    padding: 5px 31px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #eb76c0;
+    background: #3969f4;
+    color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 0px;
+    margin-right: 25px;
+   
+}
+#Submit:hover{
+    background-color: #587ff4;
+    transform:scale(0.9) ;
+}
+.btn{
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+}
+.popup{
+    border: 2px solid blue;
+    width: 26vw;
+    height: 34vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #ede7e7;
+    display: none;
+    
+}
+.popup p{
+    font-size: 24px;
+    padding-bottom: 7px;
+}
+#result{
+    font-size: 24px;
+    border: 2px solid #a08787;
+    padding: 5px 15px;
+    background-color: #229135;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.showresult{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    right: 50%;
+    bottom: 50%;
+}
